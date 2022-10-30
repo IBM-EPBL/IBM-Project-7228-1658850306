@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Youv'e logged in {% endblock %}
+
+{% block content %}
+<p class="design">welcome {{ user }} <br>You have Logged in as {{ email }}</p>
+<p class="second">Here you can know about forecasting of crude oil price</p>
+<style>
+    .design{
+        color: brown;
+        font-size: medium;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-display: solid;
+    }
+    .second{
+        color: rgb(104, 26, 39);
+        font-size: xx-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-display: solid;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+{% endblock %}

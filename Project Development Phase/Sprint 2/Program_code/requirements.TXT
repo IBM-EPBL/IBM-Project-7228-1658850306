@@ -1,0 +1,17 @@
+Flask
+werkzeug
+flask-session
+flask_cors
+pytz
+requests
+flask_pymongo
+dnspython
+cffi
+click
+importlib-metadata
+Jinja2
+MarkupSafe
+zipp
+pycparser
+colorama
+itsdangerous
