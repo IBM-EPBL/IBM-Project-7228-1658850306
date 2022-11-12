@@ -1,6 +1,11 @@
-from flask import Flask, render_template, request, url_for, redirect, session
-from pymongo import MongoClient
 import bcrypt
+import numpy as np
+from flask import Flask, redirect, render_template, request, session, url_for
+from pymongo import MongoClient
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import load_model
+
+model = load_model('prediction_model.h5')
 #set app as a Flask instance 
 app = Flask(__name__)
 #encryption relies on secret keys so they could be run
